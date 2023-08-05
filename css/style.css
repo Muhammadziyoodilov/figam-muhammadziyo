@@ -1,0 +1,200 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/inter-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/inter-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/inter-v12-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  display: flex;
+  object-fit: cover;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #5e607a;
+}
+
+main {
+  flex-grow: 1;
+}
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 42px;
+  margin-bottom: 55.1px;
+}
+.sitenav-list {
+  display: flex;
+  gap: 40px;
+}
+.sitenav-link {
+  color: #5e607a;
+  transition: 0.3s;
+}
+.sitenav-link:hover {
+  color: #f15d51;
+}
+.title {
+  width: 292px;
+  height: 182px;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 56px;
+  color: #00001a;
+  margin-right: 88px;
+}
+.info {
+  width: 350px;
+  height: 104px;
+  margin-bottom: 29px;
+}
+.btn {
+  color: #fffdfa;
+  background-color: #f15d51;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 4.38px;
+  padding: 13px 35px 11px 31px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background-color: #00001a;
+  color: #fffdfa;
+}
+.hero-1 {
+  display: flex;
+}
+.none {
+  margin-top: 36px;
+}
+.hero-2 {
+  background-color: #00001a;
+  width: 350px;
+  height: 511px;
+  margin-left: 30px;
+}
+.title-2 {
+  color: #e9aa52;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 34px;
+}
+.par {
+  width: 302px;
+  color: #c5c6ce;
+}
+.par:not(:last-child) {
+  margin-bottom: 29px;
+}
+.hr {
+  width: 302px;
+  height: 1px;
+  margin-bottom: 31px;
+  color: #5e607a;
+}
+.div-2 {
+  padding-top: 32px;
+  padding-left: 24px;
+}
+.hero-2-link {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fffdfa;
+  transition: 0.3s;
+}
+.hero-2-link:hover {
+  color: #e9aa52;
+}
+.muhammadziyo {
+  display: flex;
+}
+.main-list-game {
+  display: flex;
+  gap: 30px;
+}
+.list-game-items {
+  display: flex;
+}
+.main-mini-img {
+  margin-right: 24px;
+}
+.none-2 {
+  margin-top: 72px;
+}
+.par-2 {
+  margin-top: 9px;
+  width: 226px;
+  height: 52px;
+}
+.h4-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #c5c6ce;
+}
+.a-title {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  color: #00001a;
+  margin-top: 12px;
+}
+.a-title:hover {
+  color: #f15d51;
+  transition: 0.3s;
+}
